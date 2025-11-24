@@ -64,7 +64,7 @@ pip install -r requirements.txt
 
 ### 1. Entrenar el Modelo
 
-> **Nota**: El proceso de entrenamiento puede tomar entre 10-20 minutos dependiendo de tu hardware. Con early stopping, puede terminar antes si no hay mejora. Por cuestiones de tiempo no se proporciona un modelo pre-entrenado, pero el código está listo para entrenar.
+> **Nota**: El proceso de entrenamiento puede tomar entre 50-70 minutos dependiendo de tu hardware. Con early stopping, puede terminar antes si no hay mejora. Por cuestiones de tiempo no se proporciona un modelo pre-entrenado, pero el código está listo para entrenar.
 
 Ejecuta el script principal para entrenar la red:
 
@@ -218,3 +218,4 @@ CONFIDENCE_THRESHOLD = 0.2  # Ajustar según necesidad
 predict_single(..., threshold=0.3)  # Más estricto
 predict_single(..., threshold=0.15)  # Más permisivo
 ```
+
