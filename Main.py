@@ -233,7 +233,7 @@ def load_model(path):
     return conv, relu, pool, fc_mid, out_layer
 
 # --- training loop -----------------------------------------------------------
-def train(epochs=400, initial_lr=0.1):
+def train(epochs=200, initial_lr=0.1):
     global DATA_MEAN, DATA_STD
     import time
     start_time = time.time()
